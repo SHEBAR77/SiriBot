@@ -9,7 +9,7 @@ const welcomeChannelComment = "어서오세요.";
 const byeChannelComment = "안녕히가세요.";
 
 client.on('ready', () => {
-  console.log('켜짐.');
+  console.log('켰다.');
   client.user.setPresence({ game: { name: '아이폰을' }, status: 'online' })
 });
 
